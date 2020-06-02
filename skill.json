@@ -1,0 +1,49 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "ja-JP": {
+          "summary": "余田さんの音楽をまとめました",
+          "examplePhrases": [
+            "アレクサ、余田さんのクラシックを開いて"
+          ],
+          "keywords": [],
+          "name": "余田さんの音楽",
+          "description": "余田さんの音楽をまとめました。トラックは以下の通りです。\nFelice\nKisekinohikari\nKaikou（この曲の途中に再生止まるかと・・・）\nMagi\nHaruakane\nDeparture\nWinegrasswomotsumusume\nJuno\nYorkandlancaster\nMyhometown",
+          "smallIconUri": "file://assets/images/ja-JP_smallIconUri.png",
+          "largeIconUri": "file://assets/images/ja-JP_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "アレクサ、よでんさんに癒されたいを開いてで、起動します。\nその後、音楽をかけてで、音楽の再生が始まります。\n次の曲で次の曲へ移動、前の曲で前の曲へ移動。",
+      "category": "CHILDRENS_AMBIENT_SOUNDS",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:175878006668:function:cbd8699e-3a55-41c0-b5de-09fb6628c43c:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "ja-JP": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

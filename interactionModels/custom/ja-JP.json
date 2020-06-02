@@ -1,0 +1,114 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "よでんさんのクラシック",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "やめて",
+            "キャンセル"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "ヘルプ"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "ストップ"
+          ]
+        },
+        {
+          "name": "PlayIntent",
+          "slots": [
+            {
+              "name": "music",
+              "type": "music"
+            }
+          ],
+          "samples": [
+            "{music} を再生して",
+            "{music} を開始して",
+            "{music} を始めて",
+            "{music}",
+            "{music} を流して",
+            "{music}  をかけて"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "NameIntent",
+          "slots": [
+            {
+              "name": "name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "{name} をどう思う",
+            "{name} の印象はどう",
+            "{name} の印象"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "演奏"
+              }
+            },
+            {
+              "name": {
+                "value": "ソング"
+              }
+            },
+            {
+              "name": {
+                "value": "歌"
+              }
+            },
+            {
+              "name": {
+                "value": "楽曲"
+              }
+            },
+            {
+              "name": {
+                "value": "音楽"
+              }
+            },
+            {
+              "name": {
+                "value": "ミュージック"
+              }
+            },
+            {
+              "name": {
+                "value": "曲"
+              }
+            }
+          ],
+          "name": "music"
+        }
+      ]
+    }
+  },
+  "version": "46"
+}
